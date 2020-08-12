@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>switch-case-practice</title>
+</head>
+<body>
+<script>
+    let inputNum = +prompt("Insert a number");
+    switch((inputNum>0) ? 1 : (inputNum<0) ? -1 : 0){
+        //trong biểu thức của switch phải truyền toán tử ba ngôi vào hoặc cái gì có đưa ra kết quả.
+        case 1:
+            alert('1');
+            break;
+        case -1:
+            alert('-1');
+            break;
+        default:
+            alert('0');
+    }
+</script>
+</body>
+</html>
